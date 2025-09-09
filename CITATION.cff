@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Office-Block-Generator_Grasshopper"
+title: "Recursive Splitting — A Grasshopper Toolkit for Plot Division in Urban Design"
 version: 1.0.0
 date-released: 2025-07-20
 license: "CC-BY-4.0"
-url: "https://github.com/wushal93/Office-Block-Generator_Grasshopper"
+url: "https://github.com/wushal93/Recursive-Splitting_A-Grasshopper-toolkit-for-Plot-Division-in-Urban-Design"
 abstract: "This Grasshopper component automates plot subdivision using a recursive splitting algorithm, making it ideal for urban design and site planning."
 authors:
   - family-names: "Wusihala"
