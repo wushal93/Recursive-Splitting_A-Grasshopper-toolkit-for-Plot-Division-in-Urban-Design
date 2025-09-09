@@ -21,7 +21,7 @@ The splitting process follows a geometric and recursive approach:
 
 ## 🛠️ Component Setup
 
-Component group name: **`Recursive Splitting`**  
+Component group name: **`Recursive Splitting.gh`**  
 Replace the placeholder inputs with your own data:
 
 | Parameter       | Description                                                                 |
@@ -30,19 +30,6 @@ Replace the placeholder inputs with your own data:
 | `thresh`        | Minimum plot area (m²) to stop the recursive split (e.g., 20000 or 40000).  |
 | `S_plot`        | Width reserved for roads between plots (e.g., 8, 10, or 12 meters).         |
 
----
-
-## 📂 Repository Structure
-
-### Recursive-Splitting/
-1, Grasshopper: Recursive Splitting.gh —— Main Grasshopper definition.
-2, Rhino: Case_plan.3dm —— Example Rhino file with site boundary.
-
-#### Examples/
-1，example_city_design.jpeg —— Urban design context image.
-2，splitting_step_20000.gif —— Step-by-step split at 20,000 m² threshold.
-3，auto_split_20000.gif —— Automatic split until plots < 20,000 m².
-4，auto_split_40000.gif —— Automatic split until plots < 40,000 m².
 
 
 ---
@@ -50,6 +37,7 @@ Replace the placeholder inputs with your own data:
 ## 📸 Visual Examples
 
 ### 🏙️ Urban Design Case Example
+The Rhino example file **`Case_Plan.3dm`** can be downloaded from this repository
 <img width="1272" height="717" alt="example_city_design" src="https://github.com/user-attachments/assets/4fbeb96c-00ec-4578-8e42-e49ed1451cca" />
 
 ### 📐 Recursive Splitting Process (Threshold: 20,000 m²)
