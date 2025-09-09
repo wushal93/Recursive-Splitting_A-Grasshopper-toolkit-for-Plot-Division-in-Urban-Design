@@ -1,9 +1,8 @@
- 🌿 Recursive Splitting — A Grasshopper Toolkit for Plot Division in Urban Design
+ ##🌿 Recursive Splitting — A Grasshopper Toolkit for Plot Division in Urban Design
 
-This Grasshopper component automates **plot subdivision** using a recursive splitting algorithm, making it ideal for **urban design and planning**.  
-It identifies the longest edge of a given quadrilateral site boundary and recursively splits the land until all plots are smaller than a user-defined size threshold.  
-The logic incorporates **road spacing between plots**, enabling real-world urban block patterns.
-![visual_exmaple](https://github.com/user-attachments/assets/70c3b45f-cf6f-4434-8646-570298d39291)
+This Grasshopper component automates **plot subdivision** using a recursive splitting algorithm, making it ideal for **urban design and planning**. It identifies the longest edge of a given quadrilateral site boundary and recursively splits the land until all plots are smaller than a user-defined size threshold. The logic incorporates **road spacing between plots**, enabling real-world urban block patterns.
+
+![visual_exmaple](https://github.com/user-attachments/assets/b100118f-08eb-42b5-97be-b261a1cff619)
 
 ---
 
