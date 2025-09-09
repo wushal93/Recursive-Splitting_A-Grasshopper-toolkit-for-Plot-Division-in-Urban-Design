@@ -35,20 +35,15 @@ Replace the placeholder inputs with your own data:
 ## 📂 Repository Structure
 
 ### Recursive-Splitting/
-#### Grasshopper/ 
-##### Recursive Splitting.gh      # Main Grasshopper definition
-
-#### Rhino/
-##### Case_plan.3dm               # Example Rhino file with site boundary
+1, Grasshopper: Recursive Splitting.gh —— Main Grasshopper definition
+2, Rhino: Case_plan.3dm —— Example Rhino file with site boundary
 
 #### Examples/
-##### example_city_design.jpeg    # Urban design context image
-##### splitting_step_20000.gif    # Step-by-step split at 20,000 m² threshold
-##### auto_split_20000.gif        # Automatic split until plots < 20,000 m²
-##### auto_split_40000.gif        # Automatic split until plots < 40,000 m²
+1，example_city_design.jpeg —— Urban design context image
+2，splitting_step_20000.gif —— Step-by-step split at 20,000 m² threshold
+3，auto_split_20000.gif —— Automatic split until plots < 20,000 m²
+4，auto_split_40000.gif —— Automatic split until plots < 40,000 m²
 
-### README.md                       # Documentation
-### CITATION.cff                    # Citation metadata
 
 ---
 
