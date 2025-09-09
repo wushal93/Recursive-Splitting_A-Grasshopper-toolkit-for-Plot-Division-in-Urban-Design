@@ -33,13 +33,22 @@ Replace the placeholder inputs with your own data:
 ---
 
 ## 📂 Repository Structure
-├── Recursive Splitting.gh # Main Grasshopper definition
-├── Case_plan.3dm # Rhino file with input geometry (example site)
-├── example_city_design.jpeg # Urban design case context
-├── splitting_step_20000.gif # Step-by-step split at 20,000 m² threshold
-├── auto_split_20000.gif # Automatic split until all plots < 20,000 m²
-├── auto_split_40000.gif # Automatic split until all plots < 40,000 m²
-└── README.md # This file
+Recursive-Splitting/
+│
+├── 📁 Grasshopper/
+│ └── Recursive Splitting.gh # Main Grasshopper definition
+│
+├── 📁 Rhino/
+│ └── Case_plan.3dm # Example Rhino file with site boundary
+│
+├── 📁 Examples/
+│ ├── example_city_design.jpeg # Urban design context image
+│ ├── splitting_step_20000.gif # Step-by-step split at 20,000 m² threshold
+│ ├── auto_split_20000.gif # Automatic split until plots < 20,000 m²
+│ └── auto_split_40000.gif # Automatic split until plots < 40,000 m²
+│
+├── 📄 README.md # Documentation
+└── 📄 CITATION.cff # Citation metadata
 
 
 ---
@@ -75,7 +84,7 @@ Replace the placeholder inputs with your own data:
 ## 📎 Requirements
 
 - Rhino + Grasshopper  
-- Plugin dependencies: **None** (pure native Grasshopper logic)  
+- Plugin: **Hoop snake**  
 
 ---
 
