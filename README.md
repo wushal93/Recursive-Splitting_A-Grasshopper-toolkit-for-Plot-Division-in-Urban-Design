@@ -37,7 +37,6 @@ Replace the placeholder inputs with your own data:
 ## 📸 Visual Examples
 
 ### 🏙️ Urban Design Case Example
-The Rhino example file **`Case_Plan.3dm`** can be downloaded from this repository
 <img width="1272" height="717" alt="example_city_design" src="https://github.com/user-attachments/assets/4fbeb96c-00ec-4578-8e42-e49ed1451cca" />
 
 ### 📐 Recursive Splitting Process (Threshold: 20,000 m²)
